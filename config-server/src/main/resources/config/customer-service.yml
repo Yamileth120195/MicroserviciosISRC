@@ -1,0 +1,13 @@
+server:
+  port: 8085
+  error:
+    include-message: always
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: customer_db
+      username:
+      password:
+        authentication-database: admin
